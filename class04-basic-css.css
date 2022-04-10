@@ -1,0 +1,13 @@
+h1{
+    color: blue;
+    font-style: underline;
+    background-color: gold;
+}
+
+h2{
+    color: purple;
+    font-weight: bold;
+    font-size: 25px;
+    border-color: 5px solid orange;
+}
+
