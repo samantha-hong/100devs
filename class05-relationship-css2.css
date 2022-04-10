@@ -1,0 +1,15 @@
+section > h2{
+    color: blue;
+}
+
+section > h2 + h2 {
+    color: purple;
+}
+
+section > article > h2 + h2 {
+    color: gold;
+}
+
+section > article > h2{
+    color: grey
+}
