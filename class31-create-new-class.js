@@ -25,3 +25,19 @@ class Cat extends Animal{
 }
 
 let kitty = new Cat('Kitty', 'Russian Blue', 'Blue')
+
+_________________________________________________________
+/* how to prevent people changing the value of a property using dot notation
+
+class Animal{
+    constructor(name){
+        this._name = name
+        //use underscore, which means DO NOT CHANGE
+    }
+    get name(){
+        return this._name
+        //when using Animal.name, it will return this._name
+    }
+}
+
+*/
