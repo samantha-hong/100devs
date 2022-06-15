@@ -14,7 +14,21 @@ class Contractor{
         return this._role
     }
     introduction(){
-        console.log(`Hi, my name is ${this._name} and I am a ${this._role} at 100devs`)
+        console.log(`Hi, my name is ${this._name}, and I am a ${this._role} at 100devs`)
     }
 }
+
+class FrontEnd extends Contractor{
+    constructor(name, role, artStyle){
+        super(name, role)
+        this._artStyle = artStyle
+    }
+    get artStyle(){
+        return this._artStyle
+    }
+    introduction(){
+        console.log(`Hi, name name is ${this.name}, and I am a ${this.role} at 100devs. My style is ${this._artStyle}`)
+    }
+}
+
 
