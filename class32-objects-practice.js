@@ -27,7 +27,7 @@ class FrontEnd extends Contractor{
         return this._artStyle
     }
     introduction(){
-        console.log(`Hi, name name is ${this.name}, and I am a ${this.role} at 100devs. My style is ${this._artStyle}`)
+        console.log(`Hi, name name is ${this._name}, and I am a ${this._role} at 100devs. My style is ${this._artStyle}`)
     }
 }
 
@@ -40,6 +40,6 @@ class BackEnd extends Contractor{
         return this._tech
     }
     introduction(){
-        console.log(`Hi, name name is ${this.name}, and I am a ${this.role} at 100devs. My favorite tech is ${this._tech}`)
+        console.log(`Hi, name name is ${this._name}, and I am a ${this._role} at 100devs. My favorite tech is ${this._tech}`)
     }
 }
