@@ -43,3 +43,14 @@ class BackEnd extends Contractor{
         console.log(`Hi, name name is ${this._name}, and I am a ${this._role} at 100devs. My favorite tech is ${this._tech}`)
     }
 }
+
+
+let bob = Contractor('Bob', 'Front-end')
+let sally = FrontEnd('Sally', 'Front-end', 'cartoon')
+let jim = BackEnd('Jim', 'Back-end', 'node')
+
+let agency = [bob, sally, jim]
+
+for(person of agency){
+    person.introduction()
+}
